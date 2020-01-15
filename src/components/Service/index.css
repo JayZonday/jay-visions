@@ -1,0 +1,14 @@
+.service-section{
+  font-family: 'Advent Pro', sans-serif;
+  display: flex;
+
+}
+.tool-img{
+  width: 10%;
+  margin: 4%;
+}
+.service-menu{
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 1.5vw;
+}
