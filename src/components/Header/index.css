@@ -26,3 +26,22 @@
   height: auto;
   color: white;
 }
+
+@media only screen and (max-width: 750px) {
+  .header-section{
+    height: 370px;
+  }
+  .main-title{
+    font-size: 15vw;
+    width: 100%;
+    margin-left: 0%;
+
+  }
+  .title-desc{
+    font-size: 3vw;
+    width: 53%;
+    margin-left: 21%;
+    color: white;
+    margin-top: 52%;
+  }
+}
