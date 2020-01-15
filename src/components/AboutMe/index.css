@@ -1,0 +1,11 @@
+.bio-pic{
+  width: 20%;
+  display: block;
+  margin: 2% auto;
+  align-content: center;
+}
+.about-title{
+  text-align: center;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 3.5vw;
+}
