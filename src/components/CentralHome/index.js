@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from '../Header'
+
 import './index.css';
 
 class CentralHome extends Component {
@@ -8,6 +10,7 @@ class CentralHome extends Component {
 
     return (
       <div>
+        <Header/>
       </div>
     );
   }

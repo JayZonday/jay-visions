@@ -7,7 +7,8 @@ class Footer extends Component {
   render(){
 
     return (
-      <div>
+      <div className='footer-section'>
+        Jay Visions <br/> New Jersey <br/> JMoloughney25@gmail.com
       </div>
     );
   }

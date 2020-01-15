@@ -7,7 +7,11 @@ class Navbar extends Component {
   render(){
 
     return (
-      <div>
+      <div className='navbar'>
+        <button className='nav-btn'>Contact Me</button>
+        <button className='nav-btn'>Services</button>
+        <button className='nav-btn'>About</button>
+        <button className='nav-btn'>Demos</button>
       </div>
     );
   }

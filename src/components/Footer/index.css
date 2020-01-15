@@ -1,0 +1,10 @@
+.footer-section{
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: 'Advent Pro', sans-serif;
+  height: 200px;
+  padding-top: 2%;
+  font-size: 1.5vw;
+}
