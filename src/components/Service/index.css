@@ -6,9 +6,25 @@
 .tool-img{
   width: 10%;
   margin: 4%;
+  transition: .3s ease-in-out;
+}
+.tool-img:hover{
+  transform: scale(1.1);
 }
 .service-menu{
   margin-left: 2%;
   margin-top: 2%;
   font-size: 1.5vw;
+}
+@media only screen and (max-width: 750px) {
+  .service-section{
+    display: block;
+  }
+  .service-menu{
+    font-size: 5.5vw;
+  }
+  .tool-img{
+    width: 30%;
+    margin: 10%;
+  }
 }
