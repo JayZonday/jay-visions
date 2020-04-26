@@ -1,8 +1,50 @@
 .demo-section{
-  display: block;
+  display: flex;
   font-family: 'Advent Pro', sans-serif;
 
 }
+.recent-title{
+  margin-left: 2%;
+}
+
 .demo{
-  width: 100%;
+  width: 20%;
+  padding: 2%;
+  text-align: center;
+  margin-top:10% !important;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border: 2px solid black;
+  transition: .25s ease-in-out;
+  border-radius: 1%;
+}
+.demo-link{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  transition: .25s ease-in-out;
+}
+
+.demo:hover{
+  background: black;
+}
+.demo#gamco:hover{
+  border: 2px solid seagreen;
+}
+.demo#portfolio:hover{
+  border:2px solid purple;
+}
+.demo#grateful:hover{
+  border: 2px solid red;
+}
+
+
+.demo:hover .demo-link#portfolio{
+  color: purple;
+}
+.demo:hover .demo-link#grateful{
+  color: red;
+}
+.demo:hover .demo-link#gamco{
+  color: seagreen;
 }
