@@ -14,7 +14,7 @@ class AboutMe extends Component {
         <div className='bio-desc'>
           Hi! My name is Joseph Moloughney and I'm a web developer. My journey to this day, has been a long and challenging
           journey - however - I can happily say I'm exactly where I want to be now. I spend most of my days coding away whether it
-          be for work or pleasure; You're almost certainly find me on the web. If not - I always enjoy a nice walk with my favorite
+          be for work or pleasure; You will almost always find me on the web. If not - I also enjoy a nice hikes & walks with my favorite
           pup, Dallas.
           <br/>
           <br/>
