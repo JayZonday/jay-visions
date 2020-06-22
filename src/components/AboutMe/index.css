@@ -21,3 +21,12 @@
   margin-left: auto;
   padding-bottom: 2%;
 }
+@media only screen and (max-width: 850px) {
+  .bio-desc{
+    font-size: 5.5vw;
+  }
+  .bio-pic{
+    width: 60%;
+    border-radius: 2%;
+  }
+}

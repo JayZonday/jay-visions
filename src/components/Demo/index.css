@@ -8,7 +8,7 @@
 }
 
 .demo{
-  width: 20%;
+  width: 25%;
   padding: 2%;
   text-align: center;
   margin-top:10% !important;
@@ -33,16 +33,12 @@
   background: black;
 }
 .demo#gamco:hover{
-  border: 2px solid seagreen;
-  color: seagreen;
-}
-.demo#portfolio:hover{
-  border:2px solid purple;
-  color: purple;
+  border: 2px solid lightblue;
+  color: lightblue;
 }
 .demo#grateful:hover{
-  border: 2px solid red;
-  color: red;
+  border: 2px solid orange;
+  color: orange;
 }
 
 
