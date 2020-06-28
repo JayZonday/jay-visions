@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BioPic from './J-Portfolio3.png'
+import Typewriter from 'typewriter-effect';
 import './index.css';
 
 class AboutMe extends Component {
@@ -17,7 +18,20 @@ class AboutMe extends Component {
           pup, Dallas.
           <br/>
           <br/>
-          Enough about me... now lets learn about you and your web needs & lets work together!
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString(`Enough about me... now lets learn about you and your web needs & lets work together!`)
+                .callFunction(() => {
+                  console.log('String typed out!');
+                })
+                .pauseFor(2500)
+                .deleteAll()
+                .callFunction(() => {
+                  console.log('All strings were deleted');
+                })
+                .start();
+            }}
+          />
         </div>
       </div>
     );

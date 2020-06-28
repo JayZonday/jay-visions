@@ -1,19 +1,18 @@
 .demo-section{
-  display: flex;
+  display: block;
   font-family: 'Advent Pro', sans-serif;
 
 }
 .recent-title{
-  margin-left: 2%;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 3.5vw;
 }
 
 .demo{
   width: 25%;
-  padding: 2%;
+  padding: 7%;
   text-align: center;
-  margin-top:10% !important;
-  margin-left: 1%;
-  margin-bottom: 2%;
   border: 2px solid black;
   transition: .25s ease-in-out;
   border-radius: 1%;
@@ -21,6 +20,12 @@
   text-decoration: none;
   font-weight: 600;
   transition: .25s ease-in-out;
+  margin: 2% auto;
+  font-size: 1.5vw;
+}
+.demos{
+  display: flex;
+  padding: 2%;
 }
 .demo-link{
   color: black;

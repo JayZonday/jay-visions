@@ -1,6 +1,10 @@
 .service-section{
   font-family: 'Advent Pro', sans-serif;
   display: flex;
+  background: black;
+  color: white;
+  border-top: 15px solid seagreen;
+  border-bottom: 15px solid seagreen
 
 }
 .tool-img{
