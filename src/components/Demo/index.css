@@ -46,13 +46,18 @@
   color: orange;
 }
 
-
-.demo:hover .demo-link#portfolio{
-  color: purple;
-}
 .demo:hover .demo-link#grateful{
   color: red;
 }
 .demo:hover .demo-link#gamco{
   color: seagreen;
+}
+
+@media only screen and (max-width: 850px) {
+  .recent-title{
+  font-size: 8.5vw;
+  }
+  .demo{
+    font-size: 5.5vw;
+  }
 }
