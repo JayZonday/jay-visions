@@ -23,6 +23,11 @@
   margin: 2% auto;
   font-size: 1.5vw;
 }
+.demo-img{
+  height: 20%;
+  width: 20%;
+  border: 2px solid black;
+}
 .demos{
   display: flex;
   padding: 2%;

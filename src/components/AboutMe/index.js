@@ -24,8 +24,8 @@ class AboutMe extends Component {
                 .callFunction(() => {
                   console.log('String typed out!');
                 })
-                .pauseFor(2500)
-                .deleteAll()
+                .pauseFor(5500)
+
                 .callFunction(() => {
                   console.log('All strings were deleted');
                 })

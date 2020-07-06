@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Gamco from './gamco.png'
+import Grateful from './grateful.png'
 import './index.css';
 
 class Demo extends Component {

@@ -9,10 +9,11 @@
   font-size: 1.5vw;
   border: none;
   color: #aaa;
-  transition: .25s ease-in-out;
+  transition: .35s ease-in-out;
 }
 .nav-btn:hover{
-  color:black;
+  color: white;
+  background-color: black !important;
 }
 @media only screen and (max-width: 850px) {
   .nav-btn{

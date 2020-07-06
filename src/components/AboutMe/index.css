@@ -22,7 +22,9 @@
   padding-bottom: 2%;
 }
 .about-section{
-  border: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
   padding: 1%;
   width: 90%;
   margin: 1% auto;
