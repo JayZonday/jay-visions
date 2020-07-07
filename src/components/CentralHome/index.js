@@ -15,8 +15,8 @@ class CentralHome extends Component {
       <div>
         <Header/>
         <AboutMe/>
-        <Service/>
         <Demo/>
+        <Service/>
       </div>
     );
   }

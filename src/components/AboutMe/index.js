@@ -20,7 +20,7 @@ class AboutMe extends Component {
           <br/>
           <Typewriter
             onInit={(typewriter) => {
-              typewriter.typeString(`Enough about me... now lets learn about you and your web needs & lets work together!`)
+              typewriter.typeString(`Enough about me... now lets learn about your web needs & get to work together!`)
                 .callFunction(() => {
                   console.log('String typed out!');
                 })
