@@ -22,6 +22,8 @@
   transition: .25s ease-in-out;
   margin: 2% auto;
   font-size: 1.5vw;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }
 .demo-img{
   height: 20%;
