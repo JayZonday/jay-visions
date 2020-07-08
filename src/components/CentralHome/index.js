@@ -3,7 +3,6 @@ import Header from '../Header'
 import Demo from '../Demo'
 import AboutMe from '../AboutMe'
 import Service from '../Service'
-
 import './index.css';
 
 class CentralHome extends Component {
