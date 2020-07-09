@@ -3,6 +3,8 @@ import JSlogo from './javascript.png'
 import ReactLogo from './react.png'
 import HtmlLogo from './html.png'
 import CssLogo from './css3.png'
+import RailsLogo from './ruby.png'
+import Postgresql from './postgresql.png'
 import Fade from 'react-reveal/Fade';
 import './index.css';
 
@@ -26,6 +28,8 @@ class Service extends Component {
         </Fade>
         <Fade bottom>
           <img className='tool-img' src={ReactLogo}/>
+          <img className='tool-img' src={RailsLogo}/>
+          <img className='tool-img' src={Postgresql}/>
           <img className='tool-img' src={JSlogo}/>
           <img className='tool-img' src={HtmlLogo}/>
           <img className='tool-img' src={CssLogo}/>

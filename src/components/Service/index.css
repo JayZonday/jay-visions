@@ -1,6 +1,6 @@
 .service-section{
   font-family: 'Advent Pro', sans-serif;
-  display: flex;
+  display: block;
   background: black;
   color: white;
   border-top: 55px solid white;
@@ -9,7 +9,7 @@
 }
 .tool-img{
   width: 10%;
-  margin: 4%;
+  margin: 3%;
   transition: .3s ease-in-out;
 }
 .tool-img:hover{

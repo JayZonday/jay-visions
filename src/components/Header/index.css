@@ -40,10 +40,6 @@
 
   }
   .title-desc{
-    font-size: 3vw;
-    width: 53%;
-    margin-left: 21%;
-    color: white;
-    margin-top: 52%;
+    display: none;
   }
 }

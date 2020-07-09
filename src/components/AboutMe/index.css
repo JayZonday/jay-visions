@@ -13,7 +13,8 @@
 }
 
 .bio-desc{
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Kalam', cursive;
+
   text-align: center;
   font-size: 1.5vw;
   width: 80%;
@@ -39,6 +40,6 @@
   }
   .bio-pic{
     width: 60%;
-    border-radius: 100%;
+    border-radius: 5%;
   }
 }
