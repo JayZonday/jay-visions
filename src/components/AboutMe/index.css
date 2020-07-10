@@ -25,6 +25,7 @@
 }
 .about-section{
   border-right: 1px solid black;
+  background-image: url('./pipes.png');
   border-left: 1px solid black;
   padding: 1%;
   width: 90%;
@@ -32,7 +33,7 @@
 }
 @media only screen and (max-width: 850px) {
   .about-title{
-    font-size:8.5vw
+    font-size: 13.5vw
   }
 
   .bio-desc{

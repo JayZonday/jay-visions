@@ -1,7 +1,7 @@
 .service-section{
   font-family: 'Advent Pro', sans-serif;
   display: block;
-  background: black;
+  background-image: url('./spiration.png');
   color: white;
   border-top: 55px solid white;
   border-bottom: 55px solid white;
@@ -28,7 +28,7 @@
     font-size: 5.5vw;
   }
   .tool-img{
-    width: 20%;
-    margin: 15%;
+    width: 30%;
+    margin: 10%;
   }
 }

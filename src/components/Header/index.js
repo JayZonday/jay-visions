@@ -13,9 +13,6 @@ class Header extends Component {
         <LightSpeed>
           <h1 className='main-title'>Jay Visions</h1>
         </LightSpeed>
-        <Fade>
-          <h2 className='title-desc'>You're Friendly Neighborhood Web Designer</h2>
-        </Fade>
       </div>
     );
   }
